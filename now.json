@@ -1,6 +1,12 @@
 {
   "name": "September",
-  "alias": ["doYouRemember","doYouRememba","EarthWindFire","EarthWindAndFire"],
+  "alias": [
+    "doYouRemember",
+    "doYouRememba",
+    "EarthWindFire",
+    "EarthWindAndFire",
+    "septemba"
+  ],
   "version": 2,
   "builds": [{ "src": "index.js", "use": "@now/node" }],
   "github": {

@@ -6,39 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "micro-dev",
-    "deploy": "now",
-    "postdeploy": "now alias"
+    "deploy": "now --target production"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {},
-  "eslintConfig": {
-    "extends": [
-      "eslint:recommended",
-      "plugin:react/recommended"
-    ],
-    "settings": {
-      "react": {
-        "version": "detect"
-      }
-    },
-    "rules": {
-      "react/react-in-jsx-scope": "off",
-      "semi": [
-        "error",
-        "never"
-      ],
-      "quotes": [
-        "error",
-        "single"
-      ]
-    },
-    "parser": "babel-eslint",
-    "env": {
-      "node": true,
-      "browser": true,
-      "es6": true
-    }
-  }
+  "dependencies": {}
 }
